@@ -1,0 +1,38 @@
+.form-login {
+    margin-top: 13%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outer-form-login {
+    padding: 20px;
+    background: #eeeeee;
+    posititon: absolute;
+    align-content: center;
+}
+
+
+.form-group {
+    position: relative;
+    margin: center;
+
+}
+
+input {
+    align-content: center;
+    width: 100%;
+}
+
+.inner-login .form-content {
+    background: #d3d3d3;
+}
+
+h3 .title-login {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.forget {
+    margin-top: 20px;
+    color: #ADADAD;
+}
