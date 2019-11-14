@@ -7,6 +7,3 @@ $koneksi = mysqli_connect("localhost","root","","web");
 // }else{
 //     echo "koneksi berhasil";
 // }
-
-
-
