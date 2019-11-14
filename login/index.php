@@ -13,14 +13,16 @@
         
         <h3 class="text-center title-login" >Login | GoShop</h3>
 
+         
+
             <?php
-                if(isset($_GET['pesan'])){
-                    if($_GET['pesan'] == "gagal"){
-                    echo "Username atau Password anad salah!";
+            if(isset($_GET['pesan'])){
+                if($_GET['pesan'] == "gagal"){
+                    echo "login gagal";
                 }else if($_GET['pesan'] == "logout"){
-                    echo "Berhasil Logout";
-                }else if($_GET['pesan'] == "belum_login"){
-                    echo "Anda belum Login";
+                    echo "anda berhasil logout";
+                } else if($_GET['pesan'] == "belum_login"){
+                    echo "anda belum login";
                 }
             }
             ?>
